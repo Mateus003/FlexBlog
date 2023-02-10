@@ -152,17 +152,35 @@ img {
     padding: 60px 20px;
 
 }
-.purple{
-    border-top: 10px solid #ae81ff;
-}
 
 .pink{
     border-top: 10px solid #f9265e;
     align-items: flex-start;
 }
 
+
+.purple{
+    border-top: 10px solid #ae81ff;
+    transition: all 0.5s linear;
+    background-color: #f7f7f7;
+
+
+}
+
+.purple:hover{
+    padding-top: 100px;
+}
+
 .blue{
     border-top: 10px solid #69d9eb;
+    background-color: #f7f7f7;
+    transition: all 0.5s linear;
+
+}
+
+
+.blue:hover{
+    padding-top: 50px;
 }
 
 .preco{
@@ -242,8 +260,14 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     padding: 15px 0;
+    transition: all 0.2s linear;
 
 }
+
+.preco a:hover{
+    font-size: 2.5em;
+}
+
 @media (max-width:800px){
     .preco{
         padding-left: 10px;
