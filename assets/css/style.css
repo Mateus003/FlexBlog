@@ -234,7 +234,6 @@ img {
 }
 .preco-item li{
     display: flex;
-   
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
@@ -266,6 +265,7 @@ img {
 
 .preco a:hover{
     font-size: 2.5em;
+    
 }
 
 @media (max-width:800px){
